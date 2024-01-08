@@ -1,0 +1,204 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Inter Tight", sans-serif;
+  font-family: "Merriweather", serif;
+}
+header {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/img/Banner.png");
+
+  width: 1320px;
+  height: 600px;
+  margin: 0px 140px;
+}
+.description {
+  text-align: center;
+}
+.txt-c {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 177px;
+}
+.txt-b {
+  /* padding-top:10px; */
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  width: 632px;
+  position: relative;
+  left: 344px;
+  bottom: 40px;
+}
+
+.discount {
+  text-align: center;
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+.plll {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.all {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.img {
+  text-align: center;
+  width: 802.9px;
+  height: 500px;
+  position: relative;
+  left: 399px;
+  right: 399px;
+}
+
+.uncommon {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("/img/Vectorrr.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 120px;
+  width: 1320px;
+  height: 600px;
+  position: relative;
+  left: 140px;
+  right: 140px;
+  border-radius: 10px;
+}
+.common {
+  width: 82%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  align-items: center;
+}
+.banner .common h3 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  width: 642px;
+  position: relative;
+  left: 128px;
+  bottom: 30px;
+}
+.banner .common p {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 128px;
+  position: relative;
+  bottom: 65px;
+}
+.imgg {
+  position: relative;
+  right: 100px;
+}
+.banner .common button {
+  position: relative;
+  left: 158px;
+  bottom: 30px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #f00;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  
+}
+.pl-n2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.pl-n {
+  text-align: center;
+}
+.pl-n4 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.pl-n6 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.pl-n3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.pl-n5 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.pl-n7 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+.bt {
+  color: #fff;
+  padding: 16px 32px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #f00;
+  border: none;
+  margin-top: 25px;
+}
+.bck {
+  text-align: center;
+  width: 1320px;
+  height: 482px;
+  background-color: #ffecec;
+  margin: 140px;
+  border-radius: 10px;
+  padding-top: 100px;
+}
