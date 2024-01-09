@@ -2,6 +2,8 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Inter Tight", sans-serif;
   font-family: "Merriweather", serif;
+  margin-bottom: 0;
+ 
 }
 header {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
@@ -18,7 +20,7 @@ header {
 .txt-c {
   color: #fff;
   text-align: center;
-  font-family: Merriweather;
+  
   font-size: 32px;
   font-weight: 400;
   padding-top: 177px;
@@ -26,7 +28,7 @@ header {
 .txt-b {
   /* padding-top:10px; */
   color: #fff;
-  font-family: Merriweather;
+ 
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
@@ -36,9 +38,7 @@ header {
   bottom: 40px;
 }
 
-.section {
-  /* text-align: center; */
-}
+
 .discount {
   position: relative;
   left: 609px;
@@ -54,8 +54,8 @@ header {
   position: relative;
   left: 20px;
   right: 20px;
-  font-family: Inter;
-  font-size: 15px;
+  
+  font-size: 13px;
   font-weight: 500px;
   margin-left: 601px;
   margin-right: 602px;
@@ -104,7 +104,7 @@ header {
 }
 .banner .common h3 {
   color: #fff;
-  font-family: Merriweather;
+  
   font-size: 64px;
   font-weight: 900;
   line-height: 88px;
@@ -117,7 +117,7 @@ header {
 .banner .common p {
   width: 697px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: Inter;
+ 
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -134,7 +134,7 @@ header {
   left: 158px;
   bottom: 30px;
   color: #fff;
-  font-family: Inter;
+  
   font-size: 20px;
   font-weight: 700;
   background-color: #f00;
@@ -155,8 +155,7 @@ header {
 }
 .pl-n4 {
   color: #f00;
-  text-align: center;
-  font-family: Inter;
+  
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
@@ -164,7 +163,7 @@ header {
 .pl-n6 {
   color: #f00;
   text-align: center;
-  font-family: Inter;
+ 
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
@@ -187,7 +186,7 @@ header {
 }
 .pl-n7 {
   color: #070211;
-  font-family: Inter;
+  
   font-size: 32px;
   font-weight: 600;
   line-height: 56px;
@@ -196,7 +195,7 @@ header {
 .bt {
   color: #fff;
   padding: 16px 32px;
-  font-family: Inter;
+  
   font-size: 20px;
   font-weight: 700;
   border-radius: 5px;
@@ -241,7 +240,7 @@ right: 140px;
 }
 .main-container h5{
   color: #F00;
-font-family: Inter;
+
 font-size: 24px;
 font-weight: 500;
 position: relative;
@@ -325,9 +324,107 @@ bottom: 40px;
 left: 240px;
 
 }
+
 .footer-section{
- width: 1600px;
-height: 609px;
+ width: 1320px;
+height: 600px;
+margin-left: 140px;
+margin-right: 140px;
 background-color: #070211;
+
+}
+.building{
+  color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+}
+.prothom-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.fast-footer{
+  margin-left: 140px;
+  margin-top: 120px;
+}
+.nmbrus{
+  color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+
+}
+.nmbr{
+  width: 24px;
+  height: 24px;
+
+  
+}
+
+.img-nmbr{
+  align-items: center;
+  display: flex;
+  margin-right: 290px;
+  margin-top: 120px;
+ 
+}
+.web-logo{
+  align-items: center;
+  display: flex;
+  margin-right: 275px;
+  margin-top: 160px;
+  position: relative;
+  bottom: 180px;
+}
+.web{
+color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+}
+.website{
+  width: 24px;
+height: 24px;
+}
+.icon{
+width: 64px;
+height: 64px;
+display: flex;
+justify-content: space-between;
+margin: 0px auto;
+gap: 6px;
+}
+hr{
+  background: rgba(255, 255, 255, 0.15);
+  width: 1320px;
+
+ /* margin: 0px 140px 0px 140px; */
+  
+}
+.foo{
+  position: relative;
+  bottom: 100px;
+  
+  
+}
+.copyright{
+  color: #FFF;
+font-size: 24px;
+font-weight: 500;
+margin-left: 140px;
+margin-bottom: 40px;
+}
+.subs{
+  color: #FFF;
+font-size: 24px;
+font-weight: 500;
+/* margin-right: 140x; */
+
+
+}
+.last-part{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 140px;
 
 }
